@@ -1,0 +1,23 @@
+.header {
+    margin: 7.6rem 0 6rem;
+}
+
+.header-button input:first-of-type {
+    box-shadow: 0px 5px 3px 0px hsl(171, 66%, 35%);
+}
+
+.header-button input:last-child {
+    box-shadow: 0px 4px 4px 0px hsl(233, 45%, 42%);
+}
+
+.header-button input:first-of-type:hover {
+    background-color: hsla(171, 62%, 42%, 0.775);
+}
+
+.header-button input:last-child:hover {
+    background-color: hsl(233, 100%, 69%, 0.775);
+}
+
+.twitter-logo:hover {
+    filter: opacity(0.3) drop-shadow(0 0 0 hsl(171, 76%, 46%)) contrast(200%);
+}

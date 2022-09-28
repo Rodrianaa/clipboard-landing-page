@@ -1,0 +1,94 @@
+@import url(font-awesome.min.css);
+
+@font-face {
+    font-family: 'Bai Jamjuree';
+    src: url(../fonts/Bai\ Jamjuree\ Regular.eot) format('eot');
+    src: url(../fonts/Bai\ Jamjuree\ Regular.otf) format('otf');
+    src: url(../fonts/Bai\ Jamjuree\ Regular.ttf) format('ttf');
+    src: url(../fonts/Bai\ Jamjuree\ Regular.woff) format('woff');
+}
+
+* {
+    font-family: 'Bai Jamjuree';
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.bg-strong-cyan {
+    background-color: hsl(171, 66%, 44%);
+}
+
+.bg-light-blue {
+    background-color: hsl(233, 100%, 69%);
+}
+
+.bg-light-gray {
+    background-color: #ededf1e9;
+}
+
+.text-dark-grayish-blue {
+    color: hsl(210, 10%, 33%)
+}
+
+.text-grayish-blue {
+    color: hsl(201, 11%, 66%)
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.pointer:hover {
+    cursor: pointer;
+}
+
+.blue-hover:hover {
+    color: hsl(171, 66%, 44%);
+}
+
+
+
+input[type="button"] {
+    padding: 1rem 3rem;
+    transition: background-color .5s;
+}
+
+
+/* mobile etc*/
+@media (min-width:375px) {
+    body {
+        background: url(../images/bg-header-mobile.png) no-repeat;
+        background-size: cover;
+    }
+
+    /* .computer {
+        display: grid;
+    } */
+}
+
+/* tablet etc */
+@media (min-width: 768px) {
+    body {
+        background: url(../images/bg-header-desktop.png) no-repeat;
+        background-size: cover;
+    }
+
+    .header-text h3 {
+        width: 50%;
+    }
+
+    /* .computer {
+        display: flex;
+    } */
+}
+
+/* laptop etc */
+@media (max-width:1440px) {}
