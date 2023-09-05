@@ -20,7 +20,6 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
-- Bootstrap 5
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
+
